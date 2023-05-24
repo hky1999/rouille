@@ -357,6 +357,7 @@ where
         A: ToSocketAddrs,
     {
         let server = tiny_http::Server::http(addr)?;
+        // println!("rouille new server on addr {}", server.server_addr());
         Ok(Server {
             server,
             executor: Executor::default(),

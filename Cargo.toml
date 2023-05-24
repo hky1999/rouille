@@ -37,7 +37,7 @@ threadpool = "1"
 num_cpus = "1"
 
 [dependencies.multipart]
-path = "../multipart"
+git = "https://github.com/hky1999/multipart"
 version = "0.18"
 default-features = false
 features = ["server"]
